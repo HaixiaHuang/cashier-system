@@ -1,0 +1,298 @@
+/* CSS初始化文件 */
+body,h1,h2,h3,h4,h5,h6,p,div,ul,ol,dl,li,dt,dd{
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 font-size: 12px;
+	 font-family: "microsoft yahei";
+}
+a{
+	 text-decoration: none;
+	 color: #444444;
+}
+input,img{
+	 border: 0 none;
+	 outline-style: none;
+	 padding: 0;
+	 margin: 0;
+	 vertical-align: bottom;
+}
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	 zoom: 1;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.w{
+	 width:1300px;
+	 margin:0 auto;
+}
+/* 顶边部分 */
+.top{
+	height:150px;
+	width: 1300px;
+	background-color: #F9F9F9;
+}
+.top-l{
+	height: 108px;
+	width: 100px;
+	margin-left:30px;
+	margin-top: 30px; 
+}
+.top-l1{
+	height: 108px;
+	margin-top: 30px;
+	margin-left: 16px;
+	
+}
+.top-r{
+	height: 106px;
+	width: 106px;
+	margin-top: 30px;
+	margin-right: 36px;
+}
+.top-l1 p{
+	color: #515151;
+	font-size:18px;
+	height:50px;
+	line-height:50px;
+}
+.top-l1 span{
+	color:#333333;
+	font-size:30px;
+	font-weight:900px;
+}
+/* 中间部分 */
+.middle{
+	width: 1300px;
+	height: 662px;
+}
+.middle-l{
+	height: 662px;
+	width: 360px;
+	background-color: #2F639E;
+	font-size:50px;
+	line-height: 662px;
+	text-align: center;
+	color: #fff;
+
+}
+.middle-r{
+	width: 940px;
+	height: 662px;
+	
+}
+.middle-r-t{
+	width: 940px;
+	height: 52px;
+	background-color: #1D7FC5;
+	line-height: 52px;
+
+}
+.middle-r-t1,.middle-r-t2,.middle-r-t3{
+	color: #fff; 
+	font-size: 16px;
+}
+.middle-r-t1{
+	margin-left: 138px;
+	margin-right:268px;
+}
+.middle-r-t3{
+	margin-right:114px;
+	margin-left:230px; 
+}
+.middle-r-m{
+	width: 940px;
+	height: 610px;
+
+}
+.middle-r-m1{
+	height: 80px;
+	width: 922px;
+	border-bottom:1px solid #EFEFEF;
+	margin-left: 18px;
+
+}
+.middle-r-m2{
+	display:inline-block;
+	color: #454545;
+	margin-top:20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right:178px;
+
+}
+.middle-r-m1 p{
+	color: #999999;
+	margin-top:10px;
+}
+.middle-r-m4{
+	display: inline-block;
+	margin-left:225px;
+	font-size: 14px;
+	margin-top:30px;
+}
+.middle-r-m3{
+	display: inline-block;
+	font-size: 14px;
+	margin-top:30px;
+
+	
+}
+.middle-r-m1-bs{
+	background-color: #FAFAFA;
+	height: 80px;
+	width: 922px;
+	border-bottom:1px solid #EFEFEF;
+	margin-left: 18px;
+}
+.middle-r-m2-bs{
+	display:inline-block;
+	color: #454545;
+	margin-top:20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right:178px;
+}
+.middle-r-m3-bs{
+	display: inline-block;
+	font-size: 14px;
+	margin-top:30px;
+}
+.middle-r-m4-bs{
+	display: inline-block;
+	margin-left:225px;
+	font-size: 14px;
+	margin-top:30px;
+}
+
+.middle-r-m1-sc{
+	
+	height: 80px;
+	width: 940px;
+	margin-left: 18px;
+}
+.middle-r-m2-sc{
+	
+	display:inline-block;
+	color: #454545;
+	margin-top:20px;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right:122px;
+}
+.middle-r-m3-sc{
+	display: inline-block;
+	font-size: 14px;
+	margin-top:30px;
+}
+.middle-r-m4-sc{
+	display: inline-block;
+	margin-left:225px;	
+	font-size: 14px;
+	margin-top:30px;
+}
+.l-bottom{
+	width: 940px;
+	height: 134px;
+}
+.bottom-t{
+	width: 940px;
+	height: 67px;
+}
+.bottom-t input{
+	margin-top: 20px;
+
+}
+.bottom-t .p2{
+	margin-left: 106px;
+	margin-right: 44px;
+
+}
+.bottom-t .p2,.bottom-t .p1{
+	font-size: 16px;
+}
+.bottom-b{
+	width: 940px;
+	height:67px;
+	float:left;
+	margin-left:14px;
+}
+.bottom-b li{
+	float:left;
+	height:40px;
+	width:182px;
+	text-align: center;
+	line-height:40px;
+	font-size:16px;
+	border-right:1px solid #DDDDDD;
+	
+}
+.bottom-b .fy{
+	width:240px;
+}
+.bottom-b .o{
+	color: #FA9B36;
+	font-size:24px;
+	font-weight: 700;
+	width:242px;
+
+}
+.bottom-b .o1{
+	color: #FA9B36;
+	font-weight: 700;
+
+}
+.bottom-b .o2{
+	color: #FF5D5D;
+	font-size:35px;
+	font-weight:900;
+}
+.bottom-b .yf{
+	border-right-style: none;
+	width: 306px;
+}
+/* 下边部分 */
+.bbbbbb{
+	width: 1300px;
+	height:86px;
+	background-color:#F9F9F9;
+	
+
+}
+.bbbbb-1{
+	height:86px;
+	margin-left: 20px;
+	
+	line-height: 86px;
+}
+.bbbbb-1 .b321{
+	color: #0B6EB3;
+	
+}
+.bbbbb-1-1{
+	font-size: 16px;
+}
+.bbbbb-2{
+	margin-right: 44px;
+}
+.bbbbb-2-1{
+	font-size: 14px;
+	margin-top: 20px;
+}
+.bbbbb-2-2{
+	color:#666667;
+	float: right;
+	margin-top:10px;
+}
